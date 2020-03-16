@@ -23,70 +23,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "5C4CB92D-E80F-4682-8E9B-C188E1A80FEA"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "swfitDemo/AppDelegate.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "14"
-            endingLineNumber = "14"
-            landmarkName = "AppDelegate"
-            landmarkType = "3">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "ACFBA412-0892-423E-B3C6-C68C276EBA58"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "swfitDemo/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "96"
-            endingLineNumber = "96"
-            landmarkName = "getSongDetial(chnnelID:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "ACFBA412-0892-423E-B3C6-C68C276EBA58 - 86e6b49bb2b7a767"
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Result.Result&lt;Moya.Response, Moya.MoyaError&gt;) -&gt; () in swfitDemo.ViewController.getSongDetial(chnnelID: Swift.String) -&gt; ()"
-                  moduleName = "swfitDemo"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/zhangsongbai/Desktop/iosDemo/swfitDemo/swfitDemo/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "75"
-                  endingLineNumber = "75"
-                  offsetFromSymbolStart = "189">
-               </Location>
-               <Location
-                  uuid = "ACFBA412-0892-423E-B3C6-C68C276EBA58 - 86e6b49bb2b7a767"
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Result.Result&lt;Moya.Response, Moya.MoyaError&gt;) -&gt; () in swfitDemo.ViewController.getSongDetial(chnnelID: Swift.String) -&gt; ()"
-                  moduleName = "swfitDemo"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/zhangsongbai/Desktop/iosDemo/swfitDemo/swfitDemo/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "75"
-                  endingLineNumber = "75"
-                  offsetFromSymbolStart = "203">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "061C9110-36A6-4E0B-A8A8-0E97390450E7"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -94,25 +30,9 @@
             filePath = "swfitDemo/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "72"
-            endingLineNumber = "72"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
             landmarkName = "tableView(_:didSelectRowAt:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "56C78166-4B43-4216-BFCA-3A6415D726D1"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "swfitDemo/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "104"
-            endingLineNumber = "104"
-            landmarkName = "getSongDetial(chnnelID:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -126,8 +46,8 @@
             filePath = "swfitDemo/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "114"
-            endingLineNumber = "114"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
             landmarkName = "showAlter(title:message:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -168,7 +88,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "558E1FDE-9AB4-461A-B056-8AB270463769"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "swfitDemo/RequestLoadingPlugin.swift"
@@ -184,7 +104,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "1CA3EBA5-A85D-4A34-AF9D-B466BDAB001E"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "swfitDemo/RequestLoadingPlugin.swift"
@@ -194,38 +114,134 @@
             endingLineNumber = "28"
             landmarkName = "didReceive(_:target:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1E4D9793-0F88-4B65-AD9C-EFDC41F20FEA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "swfitDemo/NetWrokManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "reqeust(_:SuccessClosure:failClosure:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "29E9B1D2-1C91-481B-97A3-CBA01887B139"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "swfitDemo/NetWrokManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "reqeust(_:SuccessClosure:failClosure:)"
+            landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "1CA3EBA5-A85D-4A34-AF9D-B466BDAB001E - d837b8ecadaa0014"
+                  uuid = "29E9B1D2-1C91-481B-97A3-CBA01887B139 - 1b4962d75130fcf"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "swfitDemo.RequestLoadingPlugin.didReceive(_: Swift.Result&lt;Moya.Response, Moya.MoyaError&gt;, target: Moya.TargetType) -&gt; ()"
+                  symbolName = "closure #1 (Result.Result&lt;Moya.Response, Moya.MoyaError&gt;) -&gt; () in static swfitDemo.NetWrokManager.reqeust&lt;A where A: HandyJSON.HandyJSON&gt;(_: Moya.MultiTarget, SuccessClosure: (A) -&gt; (), failClosure: (Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
                   moduleName = "swfitDemo"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/zhangsongbai/Desktop/iosDemo/swfitDemo/swfitDemo/RequestLoadingPlugin.swift"
+                  urlString = "file:///Users/zhangsongbai/Desktop/iosDemo/swfitDemo/swfitDemo/NetWrokManager.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "27"
                   endingLineNumber = "27"
-                  offsetFromSymbolStart = "359">
+                  offsetFromSymbolStart = "476">
                </Location>
                <Location
-                  uuid = "1CA3EBA5-A85D-4A34-AF9D-B466BDAB001E - c5fb23aeb2a6230f"
+                  uuid = "29E9B1D2-1C91-481B-97A3-CBA01887B139 - 1b4962d75130fcf"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in swfitDemo.RequestLoadingPlugin.didReceive(_: Swift.Result&lt;Moya.Response, Moya.MoyaError&gt;, target: Moya.TargetType) -&gt; ()"
+                  symbolName = "closure #1 (Result.Result&lt;Moya.Response, Moya.MoyaError&gt;) -&gt; () in static swfitDemo.NetWrokManager.reqeust&lt;A where A: HandyJSON.HandyJSON&gt;(_: Moya.MultiTarget, SuccessClosure: (A) -&gt; (), failClosure: (Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
                   moduleName = "swfitDemo"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/zhangsongbai/Desktop/iosDemo/swfitDemo/swfitDemo/RequestLoadingPlugin.swift"
+                  urlString = "file:///Users/zhangsongbai/Desktop/iosDemo/swfitDemo/swfitDemo/NetWrokManager.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "28"
-                  endingLineNumber = "28"
-                  offsetFromSymbolStart = "50">
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "530">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E45073E4-7090-4A9A-9B1B-D0605F63EAB9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "swfitDemo/NetWrokManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "reqeust(_:SuccessClosure:failClosure:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E45073E4-7090-4A9A-9B1B-D0605F63EAB9 - 1b4962d75130fcf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Result.Result&lt;Moya.Response, Moya.MoyaError&gt;) -&gt; () in static swfitDemo.NetWrokManager.reqeust&lt;A where A: HandyJSON.HandyJSON&gt;(_: Moya.MultiTarget, SuccessClosure: (A) -&gt; (), failClosure: (Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "swfitDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhangsongbai/Desktop/iosDemo/swfitDemo/swfitDemo/NetWrokManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "476">
+               </Location>
+               <Location
+                  uuid = "E45073E4-7090-4A9A-9B1B-D0605F63EAB9 - 1b4962d75130fcf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Result.Result&lt;Moya.Response, Moya.MoyaError&gt;) -&gt; () in static swfitDemo.NetWrokManager.reqeust&lt;A where A: HandyJSON.HandyJSON&gt;(_: Moya.MultiTarget, SuccessClosure: (A) -&gt; (), failClosure: (Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "swfitDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhangsongbai/Desktop/iosDemo/swfitDemo/swfitDemo/NetWrokManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "530">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2115A437-0949-44A7-9223-15700485A6A6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "swfitDemo/NetWrokManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "reqeust(_:SuccessClosure:failClosure:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

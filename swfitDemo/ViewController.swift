@@ -26,35 +26,17 @@ class ViewController: UIViewController {
     }
     func loadSongListData(){
         //获取歌曲列表
-        
-        NetWrokManager.reqeust(MultiTarget(DouBan.channels), success: { (string) in
-            if let models = DouModels.deserialize(from: string){
-                self.channels = models.channels
-                }
+            NetWrokManager.reqeust(MultiTarget(DouBan.channels), SuccessClosure: { (model:DouModels) in
+                self.channels = model.channels
                 self.tableView.reloadData()
-        }) { (error) in
-            
+            }) { (error) in
+                
+            }
         }
-        
-        
-        
-        
-//        DoubanPrivider.request(.channels) { (result) in
-//            switch result{
-//            case let .success(response):
-//                let jsonString = String.init(data: response.data, encoding: .utf8)
-//                guard let json = jsonString else {
-//                    return
-//                }
-//
-//            case .failure(_):
-//                return
-//            }
-//        }
     }
     
     
-}
+
 extension ViewController:UITableViewDelegate,UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         self.channels!.count
@@ -71,42 +53,15 @@ extension ViewController:UITableViewDelegate,UITableViewDataSource{
         let model = self.channels?[indexPath.row] as! DouBanModel
         getSongDetial(chnnelID: String(model.channel_id))
     }
-    
-    
-    
-    
-    
     //获取歌曲详情
     func getSongDetial(chnnelID:String){
         
-        
-        NetWrokManager.reqeust(MultiTarget(DouBan.playlist(chnnelID)), success: { (string) in
-            if let  model = douBanSongModel.deserialize(from: string){
-           let songDetailModel = model.song.first!
-           self.showAlter(title: songDetailModel.title ?? "暂无", message: songDetailModel.artist ?? "暂无")
-                          
-            }
+        NetWrokManager.reqeust(MultiTarget(DouBan.playlist(chnnelID)), SuccessClosure: { (model:douBanSongModel) in
+            let songDetailModel = model.song.first
+            self.showAlter(title: songDetailModel?.title ?? "暂无", message: songDetailModel?.artist ?? "暂无")
         }) { (error) in
             
         }
-        
-        
-        
-//        DoubanPrivider.request(MultiTarget(DouBan.playlist(chnnelID))) { (result) in
-//            switch result{
-//            case let .success(response):
-//                let json = String(data: response.data, encoding: .utf8)
-//                guard let jsonString = json else {
-//                    return
-//                }
-//                if let  model = douBanSongModel.deserialize(from: jsonString){
-//                    let songDetailModel = model.song.first!
-//                    self.showAlter(title: songDetailModel.title ?? "暂无", message: songDetailModel.artist ?? "暂无")
-//                }
-//            case .failure(_):
-//                return
-//            }
-//        }
     }
     
     
